@@ -1,4 +1,4 @@
-package pl.sda.poznan;
+package pl.sda.poznan.zadania1;
 
 public class StringFormatDemo {
     public static void main(String[] args) {
