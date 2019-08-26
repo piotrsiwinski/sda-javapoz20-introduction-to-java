@@ -1,4 +1,4 @@
-package pl.sda.poznan.oop;
+package pl.sda.poznan.oop.figury;
 
 public class Program {
     public static void main(String[] args) {
@@ -7,6 +7,13 @@ public class Program {
         // duzyProstokat jest instancją typu Prostokat
         Prostokat duzyProstokat = new Prostokat(4, 5);
         Prostokat malyProstokat = new Prostokat(2, 3);
+
+        Kwadrat k = new Kwadrat("test", 4);
+        Kwadrat mojKwadrat = new Kwadrat("nazwa", 6);
+
+
+        Kolo k1 = new Kolo("kolo");
+        Kolo k2 = new Kolo("nazwa");
 
 
         double obwod = duzyProstokat.obliczObwod();

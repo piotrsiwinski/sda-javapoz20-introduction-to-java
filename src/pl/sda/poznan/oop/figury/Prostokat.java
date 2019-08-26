@@ -1,4 +1,4 @@
-package pl.sda.poznan.oop;
+package pl.sda.poznan.oop.figury;
 
 public class Prostokat {
     private double bokA;
